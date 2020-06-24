@@ -1,0 +1,88 @@
+#face {
+	position: absolute;
+	top: 30vh;
+	left: calc(50vw - 20vmin);
+	height: 40vmin;
+	width: 40vmin;
+	background-color: #b37344;
+	border-radius: 38% 38% 62% 62%/32% 32% 68% 68%;
+}
+#hair {
+	height: 16vmin;
+	width: 44vmin;
+	background-color: black;
+	border-radius: 30% 30% 70% 70%/20% 20% 60% 60%;
+	position: absolute;
+	top: calc(30vh - 4vmin);
+	left: calc(50vw - 22vmin);
+	z-index: 2;
+}
+#ear1 {
+	position: absolute;
+	height: 10vmin;
+	width: 4vmin;
+	background-color: #b37344;
+	border-radius: 50%;
+	top: calc(30vh + 12vmin);
+	left: calc(50vw - 23vmin);
+}
+#ear2 {
+	position: absolute;
+	height: 10vmin;
+	width: 4vmin;
+	background-color: #b37344;
+	border-radius: 50%;
+	top: calc(30vh + 12vmin);
+	left: calc(50vw + 19vmin);
+}
+#cornea1 {
+	position: absolute;
+	border-radius: 50% 50% 50% 48% 48%;
+	top: calc(30vh + 14vmin);
+	left: calc(50vw - 15vmin);
+	border: 1px solid;
+	height: 6vmin;
+	width: 12vmin;
+	background-color: white;
+}
+#pupil1 {
+	position: absolute;
+	height: 5vmin;
+	width: 4vmin;
+	top: calc(30vh + 14.5vmin);
+	left: calc(50vw - 11vmin);
+	border-radius: 50%;
+	background-color: black;
+}
+#cornea2 {
+	position: absolute;
+	border-radius: 50% 50% 50% 48% 48%;
+	top: calc(30vh + 14vmin);
+	left: calc(50vw + 3vmin);
+	border: 1px solid;
+	height: 6vmin;
+	width: 12vmin;
+	background-color: white;
+}
+#pupil2 {
+	position: absolute;
+	height: 5vmin;
+	width: 4vmin;
+	top: calc(30vh + 14.5vmin);
+	left: calc(50vw + 7vmin);
+	border-radius: 50%;
+	background-color: black;
+}
+#nose1 {
+	position: absolute;
+	top: calc(30vh + 18vmin);
+	left: calc(50vw - 3vmin);
+	border: 1px solid;
+	height: 6vmin;
+	width: 5vmin;
+	border-radius: 50% 50% 0% 0% / 80% 80% 0% 0%;
+	border-bottom: none;
+}
+
+
+
